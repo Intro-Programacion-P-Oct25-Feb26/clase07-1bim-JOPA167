@@ -20,7 +20,7 @@ public class Ejemplo02 {
         entrada.useLocale(Locale.US);
         int limite;
         int contador = 1;
-        System.out.println("Ingrese el Límite");
+        System.out.println("Ingrese el Límite");//6
         limite = entrada.nextInt(); 
         while (contador <= limite){
             
@@ -34,3 +34,9 @@ public class Ejemplo02 {
         
     }
 }
+/*
+Apartir de un dato ingresado por el usuario nos determinta todos los numeros primos 
+dentro del rango ingresado(entre el 1 y el dato del usuario)
+contador%2!=0 cuando el residuo de la division sea diferente de 0 se imprime y cuando es igual a 0 no
+
+*/
